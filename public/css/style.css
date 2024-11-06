@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin : 0;
+    padding: 0;
+}
+
+html{
+    background-color:seagreen;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    height: 550px;
+    width: 850px;
+    background: #232323;
+    margin: 0 auto;
+    box-shadow: 0 0 30px black;
+    border-radius: 14px;
+}
+
+h3{
+    font-size: 15px;
+    padding: 10px;
+    color: wheat;
+    text-align: center;
+    border-bottom: burlywood;
+}
+
+table{
+    width: 100%;
+    margin-top: 40px;
+    padding: 10px;
+
+}
+table thead td{
+    padding: 5px;
+    background-color:darkgoldenrod;
+    color: azure;
+    height: 27px;
+    
+}
+p{
+    
+     border-radius: 4px;
+     width: 150px;
+     text-align: center;
+     padding-top: 10px;
+    background:linear-gradient(red,darkblue);
+    margin-left: 30px;
+    height: 25px;
+   
+}
+p:hover{
+    font-size: 17px;
+    background: linear-gradient(green,darkblue);
+}
+.addbtn{
+    color: white;
+    text-decoration: none;
+
+   
+}
+h1{
+    text-align: center;
+    margin-top: 50px;
+    padding-top: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    color: wheat;
+    font-weight: bold;
+}
+.row{
+    background-color: #2323;
+    border: 0px;
+    height: 30px;
+    color: wheat;
+}
+
+.edit{
+    text-decoration: none;
+    color:yellow;
+   
+}
+.delete{
+    text-decoration: none;
+    color: red;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}

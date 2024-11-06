@@ -1,0 +1,69 @@
+body{
+    margin-top: 90px;
+    background-color: olivedrab;
+    box-shadow: 0 0 30px black;
+    border-radius: 16px;
+    height: 450px;
+}
+html{
+    background-color: mediumslateblue;
+}
+.form-group{
+     text-align: center;
+     margin-top: 10px;
+
+}
+.form-group .inp1{
+    height: 30px;
+    width: 290px;
+   
+    border: 0px;
+    border-radius: 3px;
+    color:#232323;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.inp1{
+    margin-bottom: 10px;
+}
+.form{
+    margin-top: 100px;
+}
+h3{
+   padding-top: 40px;
+   font-size: 25px;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-style: italic;
+   font-weight: bold;
+   
+   
+}
+.form-group button{
+    background: linear-gradient(red,darkblue);
+    height: 40px;
+    width: 100px;
+    border: 0px;
+    color: wheat;
+    border-radius: 5px;
+    font-size: 13px;
+    font-weight: bold;
+}
+.form-group a{
+    text-decoration: none;
+    background: linear-gradient(green,darkblue);
+    color: white;
+    
+    border: 0px;
+    border-radius: 5px;
+}
+.form-group  a{
+    height: 40px;
+    width: 100px;
+}
+.msg1{
+    color: darkblue;
+    text-align: center;
+    text-transform: capitalize;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}

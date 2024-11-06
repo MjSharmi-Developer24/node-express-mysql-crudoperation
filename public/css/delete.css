@@ -1,0 +1,23 @@
+h1{
+    padding-top: 150px;
+    color: darkblue; 
+    text-transform: capitalize;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.deleteview{
+    text-align: center;
+    
+}
+body{
+    background-color: chocolate;
+    box-shadow: 0 0 30px rgb(8, 8, 6);
+    border-radius: 16px;
+    height: 400px;
+    margin-top: 120px;
+    
+}
+.deleteview a{
+         color: darkblue;    
+}

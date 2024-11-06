@@ -1,0 +1,40 @@
+
+
+ <link rel="stylesheet" href="/css/edituser.css">
+<h3 class="editstudent">Edit student</h3>
+
+<div class="msg1">
+{{#if msg}}
+<div class="alert">{{msg}}</div>
+<a href="/">view details</a>
+{{/if}}
+</div>
+
+
+{{#each rows}}
+<form method="post" action="/edituser/{{this.id}}"autocomplete="false">
+
+<div class="form2">
+<div  class="form-group">
+    <label for="name">Name</label>
+    <input  class="inp" type="text" name="name" value="{{this.name}}">
+</div>
+
+<div  class="form-group">
+    <label for="age">Age</label>
+    <input  class="inp" type="text" name="age"value="{{this.age}}">
+</div>
+
+<div  class="form-group">
+    <label for="city">City</label>
+    <input class="inp" type="text" name="city" value="{{this.city}}">
+</div>
+
+<div  class="form-group">
+    <button type="submit">Save details</button>
+    <a href="/">view details</a>
+</div>
+
+</div>
+</form>
+{{/each}}
